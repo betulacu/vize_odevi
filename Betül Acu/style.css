@@ -1,0 +1,112 @@
+/* Sayfanın Genel CSS Kısmı */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;http://127.0.0.1:3000/resimler/aftersun-film.jpeg.jpg
+}
+/* Sayfanın arka plan rengi ve fontu ayarlandı */
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #dddddd;
+}
+
+/* Menü Kısmının CSS Kısmı */
+/* Menü Kısmının Arka Plan Rengi,Yazı Rengi ve Konumu Ayarlandı  */
+.navbar {
+  background-color: #2e2e2e;
+  color: #ecf0f1;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+/* Menü İçindeki Ögelerin Konumları Ayarlandı. */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* Sayfanın logo kısmının yazı tipi ve rengi ayarlandı */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+/* Menünün İçindeki elemanların birbirinden bağımsız olması, liste ögelerinin başında madde işaretleri çıkmaması ve boşluk ayarlandı. */
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+/* liste ögelerinin başında madde işaretleri çıkmaması sağlandı.*/
+.nav-links ul li {
+  list-style: none;
+}
+/* Liste ögelerinin renkleri ve yazı büyüklüğü ayarlandı. */
+.nav-links a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+/* Menün altında kalan kısımın CSS Özellikleri verildi. */
+.herşey {
+    text-align: center;
+    width: 900px;
+   margin: auto;
+  }
+/* Genel Düzenlemeler */
+/* Bir paragrafın yazı rengi ve font büyüklüğü burada düzenlendi */
+.renkliparagraf {
+  color: red;
+  font-size: 20px;
+}
+/* Bir paragrafın font kalınlığı ve italik olması burada düzenlendi */
+.kalınparagraf {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Bir metinin altı çizildi. */
+.altıçizili {
+  text-decoration: underline;
+}
+/* Bir başlığın rengi ayarlandı */
+.renklibaşlık {
+  color:indigo;
+}
+/* Bir paragrafın arka plan rengi düzenlendi. */
+.arkaplanrengi {
+  background-color: rgb(158, 145, 145);
+}
+/* Bir yazının rengi değiştirildi */
+.yazırengi {
+  color: #b85580;
+}
+/* Mark rengi değiştirildi */
+.markrengi {
+    background-color:rgb(158, 145, 145) ;
+}
+/*  Başlıklar arasındaki genel boşluk için düzenlendi*/
+.boşluk {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Resimlerin CSS Kısmı */
+img {
+  display: block;
+  margin: auto;
+  width: 900px;
+}
+/* Burada Listenin CSS'i yapıldı.*/
+ol li {
+    text-align: center;
+    margin-bottom: 10px;
+}
